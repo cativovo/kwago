@@ -1,25 +1,53 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
 )
 
-// TODO:
-// - [ ] get path from arg
-// - [ ] read from stdin
 func read() any {
-	f, err := os.ReadFile("test.json")
-	if err != nil {
-		log.Fatal(err)
+	var file *os.File
+	if len(os.Args) < 2 {
+		file = os.Stdin
+	} else {
+		filepath := os.Args[1]
+
+		var err error
+		file, err = os.Open(filepath)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	defer file.Close()
+
+	data := make([]byte, 0)
+
+	reader := bufio.NewReader(file)
+
+readByte:
+	for {
+		b, err := reader.ReadByte()
+		if err != nil {
+			switch err {
+			case io.EOF:
+				break readByte
+			default:
+				log.Fatal(err)
+			}
+		}
+
+		data = append(data, b)
 	}
 
 	var result any
-	if err := json.Unmarshal(f, &result); err != nil {
+	if err := json.Unmarshal(data, &result); err != nil {
 		log.Fatal(err)
 	}
 
