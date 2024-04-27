@@ -1,0 +1,112 @@
+{
+  "books": [
+    {
+      "id": "55976dc9-74d3-4982-a2ec-966b9f803d97",
+      "title": "Anna Karenina",
+      "author": "Albert Camus",
+      "description": "World tensely onto whoever whomever boy as group.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Crime", "Political", "Satire", "Urban", "Science", "Saga"],
+      "price": 5.67
+    },
+    {
+      "id": "850fe4d5-9d09-4623-bc6c-f2eab405508a",
+      "title": "Anna Karenina",
+      "author": "Albert Camus",
+      "description": "To comb besides ours i.e. batch luck far back. Cackle behind where of weekly his.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": [
+        "Political",
+        "Saga",
+        "Thriller",
+        "Comic",
+        "Urban",
+        "Satire",
+        "Science"
+      ],
+      "price": 11.95
+    },
+    {
+      "id": "d9b82185-cf73-4f36-92d4-a03276c9ae29",
+      "title": "Anna Karenina",
+      "author": "Astrid Lindgren",
+      "description": "Shall whose team train archipelago purse well moreover us each many these sparse why. Now already ream earlier perfectly.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Urban", "Thriller", "Comic", "Science"],
+      "price": 22.62
+    },
+    {
+      "id": "fa3579a1-becd-46f7-a0f1-c6c34436e5dd",
+      "title": "Anna Karenina",
+      "author": "Edgar Allan Poe",
+      "description": "Due are myself which her example therefore ours over e.g. it talent remove daily him. Punctuation seldom how still choir sometimes project this jump than have brace.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Romance", "Comic", "Thriller", "Saga", "Science", "Urban"],
+      "price": 13.47
+    },
+    {
+      "id": "ae7e208a-a41f-4830-adc0-9214bf9df04f",
+      "title": "Anna Karenina",
+      "author": "Edgar Allan Poe",
+      "description": "Define stand several firstly other which behind how being she. Extremely gee previously that down Swiss angrily fall few fame in these.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Thriller", "Crime", "Urban", "Comic", "Political"],
+      "price": 9.62
+    },
+    {
+      "id": "81af514d-c0ae-4270-8e8e-273b006a67ed",
+      "title": "Anna Karenina",
+      "author": "George Orwell",
+      "description": "Are these all behind tribe my divorce himself airport lazily late later another tonight. Once goodness that someone irritably that till later.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": [
+        "Crime",
+        "Science",
+        "Saga",
+        "Satire",
+        "Urban",
+        "Romance",
+        "Comic",
+        "Thriller"
+      ],
+      "price": 59.64
+    },
+    {
+      "id": "03cb0254-ef83-430e-996d-da956642ecce",
+      "title": "Anna Karenina",
+      "author": "Hans Christian Andersen",
+      "description": "Mine cash of calm above music heart whose Peruvian dance for how sew above.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Crime", "Thriller"],
+      "price": 38.79
+    },
+    {
+      "id": "b3869c1e-a1d5-4897-9437-f5cf143cd621",
+      "title": "Anna Karenina",
+      "author": "Hans Christian Andersen",
+      "description": "Did many pod to he mistake crew archipelago archipelago. Next an myself where pack.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Saga"],
+      "price": 66.16
+    },
+    {
+      "id": "98f7572f-1c12-42bc-843b-69f4885e38f3",
+      "title": "Anna Karenina",
+      "author": "James Joyce",
+      "description": "From next hard last time care bouquet finally late the. Certain some lastly yikes purely each through does whom why turn comb.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Thriller"],
+      "price": 2.2
+    },
+    {
+      "id": "855d60b5-6041-4d61-9d93-d04901483d62",
+      "title": "Anna Karenina",
+      "author": "Jane Austen",
+      "description": "Can everything which together example theirs when soon east.",
+      "cover_image": "https://placehold.co/600x400",
+      "genres": ["Crime", "Comic", "Satire", "Romance", "Urban", "Political"],
+      "price": 31.66
+    }
+  ],
+  "pages": 91
+}

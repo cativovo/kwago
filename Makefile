@@ -4,6 +4,7 @@ run:
 install_deps:
 	go get github.com/charmbracelet/bubbles
 	go get github.com/charmbracelet/bubbletea
+	github.com/charmbracelet/lipgloss
 
 install_dev_deps: install_deps
 	go install github.com/go-delve/delve/cmd/dlv@latest
